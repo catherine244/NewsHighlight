@@ -75,3 +75,10 @@ repo](https://github.com/catherine244/NewsHighlight/issues).
     3. Click on any channel you woud like to read news from.
     4. You will be presented with various articles from the news source.
     5. Click any that you find interesting.
+
+    * **Disclaimer**
+    The data contained is not filtered by contents, hence the news app won't be responsible for any rude or unfriendly wordings or images.
+        
+ * **Compatibility issues**
+
+    The app is works as expected across all platforms, incase you face any compatibility issue feel free to reach out.
