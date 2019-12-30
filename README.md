@@ -63,3 +63,6 @@ Here is a run through of how to set up the application:
 * CSS
 * Animate.css
 * MDB 4.8.10
+
+## Contacts 
+**ccayreen24@gmail.com**
