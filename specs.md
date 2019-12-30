@@ -23,3 +23,16 @@ repo](https://github.com/catherine244/NewsHighlight/issues).
     The app is entirely updated/powered by the News API.  
     + Because of time constraint, this project only covers fetching, filtering and displaying data.
     + Its future scope is to implement ability to authenticate,choose favourites, subscribe to specific source updates and also share updates via social sites.
+
+    * **1.2. Goals**
+
+   1. Give information to the public-political,sports, entertainment, technology.
+   2. Instant and latest news fro all over the globe.
+   3. Easier accessibility.
+   4. Pictures of articles resective of news source
+
+* **1.2.1 Goals for implementation**
+
+      +  The process by which the API push updates to the app must be simple.
+    
+      + The app must be secure to use in environments that lack support for Security. This is by use of SECRET_KEY which will prevent CrossSiteOriginForgery
