@@ -66,3 +66,12 @@ Here is a run through of how to set up the application:
 
 ## Contacts 
 **ccayreen24@gmail.com**
+
+
+## Live link 
+**You can view the project through this link**
+
+
+## License 
+
+#### [*GNU License*](LICENSE)
