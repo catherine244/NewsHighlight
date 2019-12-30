@@ -1,4 +1,4 @@
-#!/home/cate/Documents/NewsHighlight/virtual/bin/python
+#!/home/cate/Documents/news/virtual/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
