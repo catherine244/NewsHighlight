@@ -16,3 +16,10 @@ repo](https://github.com/catherine244/NewsHighlight/issues).
 - [System Overview](#2-system-overview)
 - [Usage](#2.2-usage)
 - [Future Directions and Open Questions](#2.3-future-directions-and-open-questions)
+
+## **1. Introduction**
+* **1.1. Scope**
+    + This document describes a News Website App that is primarily concerned with making its users get information and updates about latest happenings around the globe(world).
+    The app is entirely updated/powered by the News API.  
+    + Because of time constraint, this project only covers fetching, filtering and displaying data.
+    + Its future scope is to implement ability to authenticate,choose favourites, subscribe to specific source updates and also share updates via social sites.
