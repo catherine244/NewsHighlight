@@ -26,3 +26,9 @@ Here are the features in summary:
 |Behaviour 	           |    Input 	                 |       Output          |
 |----------------------------------------------|:-----------------------------------:|-----------------------------:|       
 |Page loads, user arrives in the landing page, is greeted to a list of all available news sources.                        |  The user can click on any particulr list group item to be directed to a separate page containing news highlights curated by the same publisher.          | On clicking the "read more" button, the user is redirected to the main article to read the full story.    |   
+
+## Requirements
+* This program requires python3.+ (and pip) installed, a guide on how to install python on various platforms can be found [here](https://www.python.org/)
+* Once python is installed, install the folowing external libraries provided in the requirements.txt file using pip
+* Example: 
+    * **`pip install flask`**
