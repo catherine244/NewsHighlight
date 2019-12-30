@@ -70,7 +70,7 @@ repo](https://github.com/catherine244/NewsHighlight/issues).
 
       **You can also choose to use the live link**
       Steps
-    1. With a browser of your choice, Visit )
+    1. With a browser of your choice, Visit **https://cate-newshighlights.herokuapp.com/**
     2. Onload, the page displays news sources(Channels").
     3. Click on any channel you woud like to read news from.
     4. You will be presented with various articles from the news source.

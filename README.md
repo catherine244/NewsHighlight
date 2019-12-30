@@ -70,6 +70,7 @@ Here is a run through of how to set up the application:
 
 ## Live link 
 **You can view the project through this link**
+https://cate-newshighlights.herokuapp.com/
 
 
 ## License 
