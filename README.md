@@ -1,5 +1,8 @@
 ## PROJECT NAME 
  **The NewsHighlight**
+
+
+
  ![alt text](12.png)
 
  # DESCRIPTION
@@ -52,3 +55,11 @@ Here is a run through of how to set up the application:
 * **Step 6** : On your terminal, run the following command, **`chmod a+x start.sh`**
     * You can now launch the application locally by running the command **`./start.sh`** 
     * Open your preferred browser and view the app by opening the link **http://127.0.0.1:5000/**.
+
+
+## Technologies Used
+* Python3.6
+* HTML  
+* CSS
+* Animate.css
+* MDB 4.8.10
