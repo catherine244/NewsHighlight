@@ -1,5 +1,5 @@
 ## PROJECT NAME 
- - NewsHighlight 
+ **The NewsHighlight**
  ![alt text](12.png)
 
  # DESCRIPTION
