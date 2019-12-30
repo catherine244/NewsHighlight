@@ -55,6 +55,56 @@
                     </div>
                 </li>
             </ul>
+            <div class="main_menu_area">
+        <ul id="nav">
+          <li><a href="#">world channels</a>
+            <ul>
+                {% for item in technology %}
+                <li><a href="/source/{{item.id}}&35">{{item.name}}</a></li>
+                {%endfor%}
+            </ul>
+          </li>
+          <li><a href="#">sports</a>
+            <ul>
+                    {% for item in sports %}
+                    <li><a href="/source/{{item.id}}&35">{{item.name}}</a></li>
+                    {%endfor%}
+            </ul>
+            </li>
+          <li><a href="#">technology</a>
+            <ul>
+                    {% for item in technology %}
+                    <li><a href="/source/{{item.id}}&35">{{item.name}}</a></li>
+                    {%endfor%}
+
+                </ul>
+          </li>
+          <li><a href="#">general</a>
+            <ul>
+                    {% for item in general %}
+                    <li><a href="/source/{{item.id}}&35">{{item.name}}</a></li>
+                    {%endfor%}
+
+                </ul>
+          </li>
+          <li><a href="#">business</a>
+            <ul>
+                    {% for item in business %}
+                    <li><a href="/source/{{item.id}}&35">{{item.name}}</a></li>
+                    {%endfor%}
+                </ul>
+        </li>
+
+          <li><a href="#">entertainment</a>
+            <ul>
+                    {% for item in entertainment %}
+                    <li><a href="/source/{{item.id}}&35">{{item.name}}</a></li>
+                    {%endfor%}
+                    </li>
+            </ul>
+
+        </ul>
+      </div>
             <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="text" placeholder="Search">
       <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
