@@ -82,3 +82,9 @@ repo](https://github.com/catherine244/NewsHighlight/issues).
  * **Compatibility issues**
 
     The app is works as expected across all platforms, incase you face any compatibility issue feel free to reach out.
+
+    * **2.3. Future Directions and Open Questions**
+
+   In the discussion of future directions and open questions, it is important to remember that
+   The News app has been designed to allow a large amount of flexibility for many different future use cases. This is because it is implemented using an approved Python(FLASK) app structure.
+   Any suggestions and changes are welcomed
