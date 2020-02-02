@@ -5,17 +5,7 @@ class TestArticle(unittest.TestCase):
     """
     Test Class to test the behaviour of the Movie class
     """
-    def setUp(self):
-        """
-        Set up method that will run before every Test
-        """
-        self.new_article = Article("Bob", "Random Title", "Short","random.com","random.jpg","12/12/12", "None")
-    
-    def test_instance(self):
-        """
-        Tests if instance of the Article class
-        """
-        self.assertTrue(isinstance(self.new_article,Article))
+
     
     def test_init(self):
         """
@@ -28,7 +18,17 @@ class TestArticle(unittest.TestCase):
         self.assertEqual(self.new_article.img, "random.jpg")
         self.assertEqual(self.new_article.date, "12/12/12")
         self.assertEqual(self.new_article.content, "None")
-        
+     def setUp(self):
+        """
+        Set up method that will run before every Test
+        """
+        self.new_article = Article("Bob", "Random Title", "Short","random.com","random.jpg","12/12/12", "None")
+    
+    def test_instance(self):
+        """
+        Tests if instance of the Article class
+        """
+        self.assertTrue(isinstance(self.new_article,Article))   
 
 if __name__ == "__main__":
     unittest.main()
