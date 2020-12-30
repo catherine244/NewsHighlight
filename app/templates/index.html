@@ -44,17 +44,35 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-md-5 text-md-left ml-3 mt-3">
-                        </a>
-                        <h4 class="h4 mb-4">{{article.title}}</h4>
-                        {%if article.content%}
-                            <p class="font-weight-normal">{{article.content | truncate(120)}}</p>
-                        {%endif%}
-                        <p class="font-weight-normal">by <a><strong>{{article.author}}</strong></a>, {{article.date[:10]}}
-                        </p>
-                        <a href="{{article.url}}" target="_blank" style="color: #fff;">
-                            <button style="background-color: blue;" class="btn">Read More  <i class="fas fa-link"></i></button>
-                        </a>
+                                <div class="card">
+                <div class="view overlay">
+                <img class="card-img-top" src="{{article.urlToImage}}" alt=" {{article.title}} image">
+                <a href="#!">
+                    <div class="mask rgba-white-slight"></div>
+                </a>
+                </div>
+            
+                <!-- Card content -->
+                <div class="card-body">
+            
+                <!-- Title -->
+                <h4 class="card-title">{{ article.title}}</h4>
+                <!-- Text -->
+                <p class="card-text">{{ article.description}}.</p>
+                <p class="card-text"> <strong>Published At: </strong> {{ article.time}}.</p>
+
+                <!-- Button -->
+                 <a href="{{article.url}}" target="_blank" style="color: #fff;">
+                <a href="{{article.url}}" target="_blank" class="btn btn-lg btn-dark">Read More...</a>
+            
+                </div>
+                <div class="card-footer">
+                <p class=""> <strong>Author: </strong> {{ article.author}}.</p>
+
+                </div>
+            </div>
+
+                       
                     </div>
                 </div>
             </div>
