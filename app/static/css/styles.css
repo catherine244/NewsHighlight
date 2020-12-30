@@ -2,3 +2,11 @@ body{
     font-family: 'Nunito', sans-serif;
     background-color: #fff;
 }
+.social_plus_search{margin-bottom:20px}
+.social{width:250px; margin:20px 0px 10px 0px}
+.social ul{list-style:none outside none; margin:0; padding:0}
+.social ul li{float:left; margin-right:7px}
+.social ul li a{display:block; padding:12px 13px}
+.twitter{background:url("images/social_icons.png") no-repeat scroll 0 0 rgba(0,0,0,0)}
+.facebook{background:url("images/social_icons.png") no-repeat scroll -37px 0px rgba(0,0,0,0)}
+.feed{background:url("images/social_icons.png") no-repeat scroll -73px 0px rgba(0,0,0,0)}
