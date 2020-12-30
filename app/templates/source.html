@@ -3,23 +3,17 @@
 
 <br><br>
 <div class="container">
-    <div class="row">
-        <div class="col-lg-12">
-            <br>
-            <h3 class="text-center" style="text-transform: uppercase; font-family: 'Abril Fatface', cursive;"><strong>{{source}}</strong></h3>
-            <hr>
-            {%for source in sources%}
-            <div class="jumbotron text-center hoverable p-4">
-                <div class="row">
-                    <div class="col-md-6 offset-md-1 mx-3 my-3">
-                        <div class="view overlay">
-                            <img src="{{source.img}}" class="img-fluid"
-                                alt="Sample image for first version of blog listing">
-                            <a>
-                                <div class="mask rgba-white-slight"></div>
-                            </a>
-                        </div>
-                    </div>
+    <div class="row m-0 p-o">
+    <div class="col-md-12 m-0 p-o">
+        {% for item in news_list %}
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 m-0 p-o">
+            <div class="content_area">
+                <div class="main_content floatleft">
+                    <div class="left_coloum floatleft">
+                        <div class="single_left_coloum_wrapper">
+                            <h2 class="title">{{source.tittle}}</h2>
+                            <div class="single_left_coloum floatleft">
+          
                     <div class="col-md-5 text-md-left ml-3 mt-3">
                         </a>
                         <h4 class="h4 mb-4">{{source.title}}</h4>
@@ -33,7 +27,8 @@
                         </a>
                     </div>
                 </div>
-            </div>
+            </div> {% endcomment %}
+         
             {%endfor%}
         </div>
     </div>
